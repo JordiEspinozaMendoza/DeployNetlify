@@ -1,6 +1,7 @@
 .home__container {
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
     height: 100vh;
 }
@@ -10,4 +11,14 @@
     font-family: "Poppins";
     letter-spacing: 1px;
     font-size: 2.5rem;
+}
+
+.home__container button {
+    border-radius: 5px;
+    background-color: #153131;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    font-size: 1rem;
+    font-family: "Poppins";
 }
